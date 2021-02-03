@@ -31,7 +31,6 @@ namespace LatihanAPI
         {
             services.AddControllers();
             services.AddMvc();
-            // Enable Swagger   
             services.AddSwaggerGen(swagger =>
             {
                 //This is to generate the Default UI of Swagger Documentation  
