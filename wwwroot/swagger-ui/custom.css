@@ -1,0 +1,312 @@
+﻿#header {
+    background: #222 !important;
+}
+
+#select_document {
+    background: #666 !important;
+}
+
+input[name=baseUrl] {
+    display: none !important;
+}
+
+.logo__title {
+    display: none !important;
+}
+
+#api_info a {
+    color: #007bff !important;
+    text-decoration: none !important;
+}
+
+    #api_info a:hover,
+    #api_info a:focus,
+    #api_info a:active {
+        color: #0056b3 !important;
+        text-decoration: underline !important;
+    }
+
+.markdown p {
+    margin-bottom: 10px !important;
+    font-size: 13px !important
+}
+
+.swagger-ui .topbar {
+    background-color: #1777b6 !important;
+}
+
+.topbar-wrapper img {
+    display: none;
+}
+
+a.link span {
+    display: none !important;
+}
+
+.swagger-ui .info {
+    margin: 0px !important;
+    position: relative;
+    top: -38px;
+    z-index: 1;
+    background-image: url(/swagger-ui/documentation.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 180px
+}
+
+#swagger-ui {
+}
+
+.swagger-ui .info h2 {
+    color: #fff !important;
+    font-size: 24px !important;
+}
+
+form.download-url-wrapper {
+    position: relative;
+    z-index: 3;
+    left:10px;
+}
+
+    form.download-url-wrapper label span {
+        display: none !important;
+    }
+
+.swagger-ui .scheme-container {
+    padding: 0px !important;
+    position: relative;
+}
+
+    .swagger-ui .scheme-container .auth-wrapper {
+        position: relative;
+        top: -177px;
+        z-index: 2;
+    }
+
+a span.url {
+    top: 10px !important;
+    position: relative;
+}
+
+.swagger-ui .info .title small {
+    background: #3896f6 !important;
+    display:none;
+}
+
+.swagger-ui .opblock {
+    border-radius: 0px !important;
+}
+
+    .swagger-ui .opblock .opblock-summary-operation-id {
+        display: none !important;
+    }
+
+.swagger-ui .topbar a {
+    max-width: 137px !important;
+}
+
+.swagger-ui .topbar .download-url-wrapper {
+    flex: none !important;
+}
+
+    .swagger-ui .topbar .download-url-wrapper .select-label select {
+        border: 2px solid #1777b6 !important;
+        border-radius: 0px !important;
+        position: relative;
+        top: -5px;
+    }
+
+.swagger-ui .btn.authorize {
+    color: #fff !important;
+    border-color: #3896f6 !important;
+}
+
+.swagger-ui .btn {
+    border-radius: 0px !important;
+    min-height: 30px !important;
+    margin-right: 10px !important;
+}
+
+.auth-container .btn.authorize {
+    color: #3896f6 !important;
+    border-color: #3896f6 !important;
+}
+
+.swagger-ui .btn.authorize svg {
+    fill: #fff !important;
+}
+
+.swagger-ui .opblock .opblock-summary {
+    padding: 1px !important;
+}
+
+.swagger-ui .opblock .opblock-summary-operation-id, .swagger-ui .opblock .opblock-summary-path, .swagger-ui .opblock .opblock-summary-path__deprecated {
+    font-size: 13px !important;
+    font-weight: 600; 
+    margin: 0px 10px;
+    padding: 5px 10px;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+    font-size: 12px !important; 
+}
+
+.swagger-ui .opblock-tag {
+    font-size: 18px !important;
+}
+
+.swagger-ui .opblock .opblock-summary-description {
+    font-size: 12px !important;
+    color: #555 !important;
+}
+
+.swagger-ui .opblock .opblock-summary-method {
+    font-weight: normal !important;
+    border-radius: 0px !important;
+}
+
+.swagger-ui .scheme-container {
+    background: transparent !important;
+    margin-bottom: 10px !important;
+    height: 0px !important;
+    margin-top: -45px !important;
+}
+
+.opblock-tag-section {
+    padding: 0px 25px !important;
+    background: #eef5fa;
+}
+
+.swagger-ui .auth-container input[type=password], .swagger-ui .auth-container input[type=text] {
+    border-radius: 0px !important;
+    width: 100%;
+}
+
+.swagger-ui section.models {
+    border-radius: 0px !important;
+    border: none !important;
+    padding: 0px 30px !important;
+    background: #eef5fa;
+}
+
+    .swagger-ui section.models .model-container {
+        margin: 0 1px 15px !important;
+    }
+
+.swagger-ui table.model tbody tr td:first-of-type {
+    font-weight: normal !important; 
+}
+
+.swagger-ui .model-title {
+    font-size: 15px !important;
+    font-weight: normal !important; 
+}
+
+.swagger-ui .model {
+    margin: 10px 0px !important;
+}
+
+.swagger-ui .opblock-description-wrapper p, .swagger-ui .opblock-external-docs-wrapper p, .swagger-ui .opblock-title_normal p {
+    font-size: unset;
+}
+
+.swagger-ui .authorization__btn {
+    position: relative;
+    right: 15px;
+}
+
+.swagger-ui svg:not(:root) {
+    overflow: hidden;
+    fill: #1777b6;
+}
+
+.swagger-ui .opblock-body select {
+    border-radius: 0px !important;
+}
+
+.swagger-ui .parameter__name {
+    font-size: 13px !important;
+}
+
+.swagger-ui .parameters-col_description input[type=text] {
+    font-size: 13px;
+    padding: 5px 8px;
+}
+
+.markdown table {
+    border-top: 1px solid #bfcbd9;
+    border-left: 1px solid #bfcbd9;
+    margin-bottom: 10px;
+}
+
+    .markdown table tr, .markdown table tr + tr, .markdown table th, .markdown table th + th, .markdown table td, .markdown table td + td {
+        border-bottom: 1px solid #bfcbd9;
+        border-right: 1px solid #bfcbd9;
+        padding: 5px !important;
+    }
+
+        .markdown table th, .markdown table th + th {
+            background: #bfcbd9;
+        }
+
+.markdown ul {
+    margin-bottom: 15px;
+}
+
+    .markdown ul li {
+        margin: 5px 0px;
+    }
+
+.swagger-ui .info > div, .swagger-ui .info > div > div {
+    margin: 0 0 5px;
+}
+
+@media (max-width: 768px) {
+    .swagger-ui input[type=email], .swagger-ui input[type=file], .swagger-ui input[type=password], .swagger-ui input[type=search], .swagger-ui input[type=text], .swagger-ui textarea {
+        max-width: 100% !important;
+    }
+
+    .filter-container {
+        position: unset !important;
+        top: unset !important;
+        right: unset !important;
+        width: 100% !important;
+    }
+
+    .swagger-ui .btn.authorize span {
+        display: none !important;
+    }
+
+    .swagger-ui .auth-wrapper .authorize {
+        padding: 5px 8px !important;
+    }
+}
+@media (max-width: 640px) {
+    .swagger-ui .opblock .opblock-summary-description, .swagger-ui .opblock .opblock-summary-method {
+        display: none !important;
+    }
+}
+
+.swagger-ui .filter .operation-filter-input {
+    border: 1px solid #bfcbd9 !important;
+    border-radius: 0px !important;
+    background-image: url(/swagger-ui/search.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 16px;
+    color: #666;
+    position:relative;
+    top:4px;
+}
+.filter-container { 
+    position: absolute;
+    top: -15px;
+    right: 21%;
+    width: 30%;
+    z-index: 10;
+}
+    .filter-container input {
+        padding: 7px 10px !important;
+    }
