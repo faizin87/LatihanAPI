@@ -30,7 +30,6 @@ namespace LatihanAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            // JWT Token Generation from Server Side.  
             services.AddMvc();
             // Enable Swagger   
             services.AddSwaggerGen(swagger =>
